@@ -27,8 +27,7 @@
             $tipo = $_POST['tipo_modelo'];
             $marca= $_POST['marca_id_marca'];
 
-            $sql = "UPDATE modelo SET nome_modelo='{$nome}', cor_modelo='{$cor}', 
-            ano_modelo='{$ano}', tipo_modeo='{$tipo}', marca_id_modelo='{$marca}' WHERE id_modelo=".$_REQUEST['id_modelo'];
+            $sql = "UPDATE modelo SET nome_modelo='{$nome}', cor_modelo='{$cor}', ano_modelo={$ano}, tipo_modelo='{$tipo}', marca_id_marca={$marca} WHERE id_modelo=".$_REQUEST['id_modelo'];
 
             $res = $conn->query($sql);
 

@@ -18,6 +18,7 @@
             print "<tr>";
             print "<td>".$row -> id_marca."</td>";
             print "<td>".$row -> nome_marca."</td>";
+            print "<th>Ações</th>";
             print "<td>
                     <button class='btn btn-success' onclick=\"
                         location.href='?page=editar-marca&id_marca={$row->id_marca}';\">Editar</button>

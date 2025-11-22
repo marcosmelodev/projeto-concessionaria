@@ -19,6 +19,7 @@
         print "<th>Cor</th>";
         print "<th>Ano</th>";
         print "<th>Tipo</th>";
+        print "<th>Ações</th>";
         print "</tr>";
         while( $row = $res -> fetch_object()){
             print "<tr>";

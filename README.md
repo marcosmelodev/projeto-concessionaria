@@ -36,9 +36,9 @@ Listagens: visualização organizada de todos os registros cadastrados.
 
 🛠️ Tecnologias Utilizadas
 
-PHP (92%) → Lógica principal e integração com banco de dados
+PHP → Lógica principal e integração com banco de dados
 
-Hack (8%) → Complemento de código
+Hack → Complemento de código
 
 HTML5 & CSS3 → Estrutura e estilização das páginas
 
